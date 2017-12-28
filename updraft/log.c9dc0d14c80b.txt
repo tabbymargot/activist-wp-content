@@ -1,0 +1,280 @@
+0000.000 (0) Opened log file at time: Sun, 10 Dec 2017 14:36:26 +0000 on http://localhost:8888/activist_group
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.16 WP: 4.9.1 PHP: 7.1.8 (apache2handler, Darwin Carolines-MBP 16.7.0 Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 26.3M | 2M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 22257.5 MB
+0000.010 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.018 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.023 (0) Set semaphore last lock (fd) time to 2017-12-10 14:36:26
+0000.025 (0) Semaphore lock (fd) complete
+0000.032 (0) Backup run: resumption=0, nonce=c9dc0d14c80b, begun at=1512916586 (0s ago), job type=backup
+0000.035 (0) Scheduling a resumption (1) after 300 seconds (1512916886) in case this run gets aborted
+0000.050 (0) Checking if we have a zip executable available
+0000.051 (0) Testing: /usr/bin/zip
+0000.057 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.058 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.059 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.061 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.062 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.073 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.074 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.085 (0) Working binary zip found: /usr/bin/zip
+0000.088 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.089 (0) Creation of backups of directories: beginning
+0000.094 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.248 (0) Total entities for the zip file: 644 directories, 4068 files (0 skipped as non-modified), 54.4 MB
+0000.253 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.257 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.261 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.265 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.269 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.270 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.7 MB, 4068 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.859 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: size is now: 3.30 MB
+0000.867 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 600 files added (on-disk size: 3329.8 KB)
+0000.870 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 700 files added (on-disk size: 3329.8 KB)
+0000.875 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 800 files added (on-disk size: 3329.8 KB)
+0000.879 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 900 files added (on-disk size: 3329.8 KB)
+0000.883 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 1000 files added (on-disk size: 3329.8 KB)
+0000.885 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.2 MB, 4068 files batched, 501 (1002) added so far); re-opening (prior size: 3329.8 KB)
+0001.379 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: size is now: 6.30 MB
+0001.385 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 1100 files added (on-disk size: 6440.1 KB)
+0001.390 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 1200 files added (on-disk size: 6440.1 KB)
+0001.395 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 1300 files added (on-disk size: 6440.1 KB)
+0001.399 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 1400 files added (on-disk size: 6440.1 KB)
+0001.403 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 1500 files added (on-disk size: 6440.1 KB)
+0001.404 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 4068 files batched, 501 (1503) added so far); re-opening (prior size: 6440.1 KB)
+0001.711 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: size is now: 7.90 MB
+0001.718 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 1600 files added (on-disk size: 8108.5 KB)
+0001.722 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 1700 files added (on-disk size: 8108.5 KB)
+0001.729 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 1800 files added (on-disk size: 8108.5 KB)
+0001.739 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 1900 files added (on-disk size: 8108.5 KB)
+0001.744 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 2000 files added (on-disk size: 8108.5 KB)
+0001.747 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 4068 files batched, 501 (2004) added so far); re-opening (prior size: 8108.5 KB)
+0002.090 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: size is now: 9.80 MB
+0002.096 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 2100 files added (on-disk size: 10077.4 KB)
+0002.100 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 2200 files added (on-disk size: 10077.4 KB)
+0002.104 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 2300 files added (on-disk size: 10077.4 KB)
+0002.109 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 2400 files added (on-disk size: 10077.4 KB)
+0002.113 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 2500 files added (on-disk size: 10077.4 KB)
+0002.115 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.5 MB, 4068 files batched, 501 (2505) added so far); re-opening (prior size: 10077.4 KB)
+0002.875 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: size is now: 13.50 MB
+0002.881 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 2600 files added (on-disk size: 13870.2 KB)
+0002.886 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 2700 files added (on-disk size: 13870.2 KB)
+0002.889 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 2800 files added (on-disk size: 13870.2 KB)
+0002.894 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 2900 files added (on-disk size: 13870.2 KB)
+0002.898 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 3000 files added (on-disk size: 13870.2 KB)
+0002.899 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 4068 files batched, 501 (3006) added so far); re-opening (prior size: 13870.2 KB)
+0003.140 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 3100 files added (on-disk size: 14790.3 KB)
+0003.145 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 3200 files added (on-disk size: 14790.3 KB)
+0003.149 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 3300 files added (on-disk size: 14790.3 KB)
+0003.153 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 3400 files added (on-disk size: 14790.3 KB)
+0003.157 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 3500 files added (on-disk size: 14790.3 KB)
+0003.158 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 4068 files batched, 501 (3507) added so far); re-opening (prior size: 14790.3 KB)
+0003.454 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 3600 files added (on-disk size: 16277.7 KB)
+0003.458 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 3700 files added (on-disk size: 16277.7 KB)
+0003.462 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 3800 files added (on-disk size: 16277.7 KB)
+0003.467 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 3900 files added (on-disk size: 16277.7 KB)
+0003.471 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip.tmp: 4000 files added (on-disk size: 16277.7 KB)
+0003.472 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 MB, 4068 files batched, 501 (4008) added so far); re-opening (prior size: 16277.7 KB)
+0004.516 (0) Created plugins zip (0) - 18627.3 KB in 4.4 s (4214 KB/s) (sha1: 48530bfe3429109e3b12fc2c3c9bda9541279148, sha256: ec3e95a532a9f97d93aeb8fdc3d2d0e74f34e867310c7b1aaebaa74d78e17c09)
+0004.519 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.525 (0) Total entities for the zip file: 13 directories, 103 files (0 skipped as non-modified), 1.9 MB
+0004.530 (0) Zip: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.686 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-themes.zip.tmp: size is now: 0.90 MB
+0004.723 (0) Created themes zip (0) - 948.3 KB in 0.2 s (4699.6 KB/s) (sha1: 77c1d01fb200f1688a2816dbc220931df957f998, sha256: bb87fc613802e49f4c8ad4a7e92c829ff69af222a78293533864d45b42c594b3)
+0004.727 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0004.729 (0) Looking for candidates to back up in: /Users/carolinewood/Sites/wordpress/activist_group/wp-content/uploads
+0004.731 (0) finding files: 2017: adding to list (1)
+0004.733 (0) finding files: bb-plugin: adding to list (2)
+0004.735 (0) finding files: elementor: adding to list (3)
+0004.736 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0004.749 (0) Total entities for the zip file: 10 directories, 22 files (0 skipped as non-modified), 0.9 MB
+0004.775 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-uploads.zip.tmp: size is now: 0.80 MB
+0004.811 (0) Created uploads zip (0) - 859.6 KB in 0.1 s (12352.4 KB/s) (sha1: 7f7e6b6447ce0c618149855b7955d7c143ab4c0b, sha256: 8e041bc107f40d75bc1b2ebc25312282166cfb8923ad3eac9d45ab0ca11dbfc7)
+0004.816 (0) Beginning backup of other directories found in the content directory (index: 0)
+0004.817 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0004.819 (0) Looking for candidates to back up in: /Users/carolinewood/Sites/wordpress/activist_group/wp-content
+0004.820 (0) finding files: .DS_Store: adding to list (1)
+0004.821 (0) finding files: index.php: adding to list (2)
+0004.822 (0) finding files: plugins: skipping: this is the plugins directory
+0004.823 (0) finding files: themes: skipping: this is the themes directory
+0004.825 (0) finding files: updraft: skipping: this is the updraft directory
+0004.826 (0) finding files: upgrade: skipping: excluded by options
+0004.828 (0) finding files: uploads: skipping: this is the uploads directory
+0004.835 (0) Total entities for the zip file: 0 directories, 2 files (0 skipped as non-modified), 0 MB
+0004.844 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-others.zip.tmp: size is now: 0.00 MB
+0004.854 (0) Created others zip (0) - 0.5 KB in 0 s (24.2 KB/s) (sha1: f5f18a4038152e9e683e17247ea1e965c361dd63, sha256: 41e86931273c94c3d6c61412c970733b5f0e1cd4d395bb4d5f430bbead4db987)
+0004.864 (0) Saving backup status to database (elements: 8)
+0004.872 (0) Beginning creation of database dump (WordPress DB)
+0004.899 (0) Table wp_options: Total expected rows (approximate): 233
+0004.941 (0) Table wp_options: Total rows added: 221 in 0.04 seconds
+0004.944 (0) Table wp_options: finishing file (backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_options.table.gz - 71.4 KB)
+0004.952 (0) Table wp_users: Total expected rows (approximate): 1
+0004.956 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0004.958 (0) Table wp_users: finishing file (backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_users.table.gz - 0.6 KB)
+0004.964 (0) Table wp_usermeta: Total expected rows (approximate): 25
+0004.970 (0) Table wp_usermeta: Total rows added: 25 in 0.00 seconds
+0004.972 (0) Table wp_usermeta: finishing file (backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_usermeta.table.gz - 1.2 KB)
+0004.977 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0004.981 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0004.982 (0) Table wp_commentmeta: finishing file (backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0004.988 (0) Table wp_comments: Total expected rows (approximate): 1
+0004.991 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0004.993 (0) Table wp_comments: finishing file (backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_comments.table.gz - 0.7 KB)
+0004.999 (0) Table wp_links: Total expected rows (approximate): 0
+0005.002 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0005.003 (0) Table wp_links: finishing file (backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_links.table.gz - 0.4 KB)
+0005.011 (0) Table wp_postmeta: Total expected rows (approximate): 181
+0005.041 (0) Table wp_postmeta: Total rows added: 127 in 0.03 seconds
+0005.043 (0) Table wp_postmeta: finishing file (backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_postmeta.table.gz - 35.1 KB)
+0005.048 (0) Table wp_posts: Total expected rows (approximate): 118
+0005.069 (0) Table wp_posts: Total rows added: 120 in 0.02 seconds
+0005.071 (0) Table wp_posts: finishing file (backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_posts.table.gz - 11.9 KB)
+0005.077 (0) Table wp_term_relationships: Total expected rows (approximate): 5
+0005.081 (0) Table wp_term_relationships: Total rows added: 5 in 0.00 seconds
+0005.082 (0) Table wp_term_relationships: finishing file (backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0005.088 (0) Table wp_term_taxonomy: Total expected rows (approximate): 2
+0005.091 (0) Table wp_term_taxonomy: Total rows added: 2 in 0.00 seconds
+0005.093 (0) Table wp_term_taxonomy: finishing file (backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0005.099 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0005.102 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0005.103 (0) Table wp_termmeta: finishing file (backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_termmeta.table.gz - 0.4 KB)
+0005.108 (0) Table wp_terms: Total expected rows (approximate): 2
+0005.112 (0) Table wp_terms: Total rows added: 2 in 0.00 seconds
+0005.114 (0) Table wp_terms: finishing file (backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_terms.table.gz - 0.4 KB)
+0005.119 (0) Table wp_duplicator_packages: Total expected rows (approximate): 1
+0005.123 (0) Table wp_duplicator_packages: Total rows added: 1 in 0.00 seconds
+0005.125 (0) Table wp_duplicator_packages: finishing file (backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_duplicator_packages.table.gz - 1.3 KB)
+0005.130 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_options.table.gz (1/13): adding to final database dump
+0005.156 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_users.table.gz (2/13): adding to final database dump
+0005.157 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_usermeta.table.gz (3/13): adding to final database dump
+0005.158 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_commentmeta.table.gz (4/13): adding to final database dump
+0005.160 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_comments.table.gz (5/13): adding to final database dump
+0005.162 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_links.table.gz (6/13): adding to final database dump
+0005.163 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_postmeta.table.gz (7/13): adding to final database dump
+0005.189 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_posts.table.gz (8/13): adding to final database dump
+0005.202 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_term_relationships.table.gz (9/13): adding to final database dump
+0005.203 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_term_taxonomy.table.gz (10/13): adding to final database dump
+0005.204 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_termmeta.table.gz (11/13): adding to final database dump
+0005.206 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_terms.table.gz (12/13): adding to final database dump
+0005.207 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db-table-wp_duplicator_packages.table.gz (13/13): adding to final database dump
+0005.209 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db.gz: finished writing out complete database file (104 KB)
+0005.220 (0) Total database tables backed up: 13 (backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db.gz, size: 124785, sha256)
+0005.230 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0005.231 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0005.232 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0005.233 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-others.zip: others: This file has not yet been successfully uploaded: will queue
+0005.234 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0005.235 (0) Saving backup history. Total backup size: 20.1 MB
+0005.240 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0005.245 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0005.246 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-2f4a32d7046548ebf1a1c9eeb4e14682)
+0005.247 (0) Google Drive: requesting access token: client_id=205978054409-brgor40fj06co7tib48l3ir10pv6so2c.apps.googleusercontent.com
+0005.410 (0) Google Drive: successfully obtained access token
+0007.284 (0) Google Drive quota usage: used=2023 MB, total=15360 MB, available=13337 MB
+0007.286 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip: Attempting to upload to Google Drive (into folder id: 0B5Nwr5jLy8VuRy1SdnNlRTNkRjg)
+0008.679 (0) Googledrive chunked upload: 5.5 % uploaded (1048576)
+0009.809 (0) Googledrive chunked upload: 11 % uploaded (2097152)
+0010.914 (0) Googledrive chunked upload: 16.5 % uploaded (3145728)
+0012.022 (0) Googledrive chunked upload: 22 % uploaded (4194304)
+0013.131 (0) Googledrive chunked upload: 27.5 % uploaded (5242880)
+0014.234 (0) Googledrive chunked upload: 33 % uploaded (6291456)
+0015.337 (0) Googledrive chunked upload: 38.5 % uploaded (7340032)
+0016.446 (0) Googledrive chunked upload: 44 % uploaded (8388608)
+0017.549 (0) Googledrive chunked upload: 49.5 % uploaded (9437184)
+0018.651 (0) Googledrive chunked upload: 55 % uploaded (10485760)
+0019.751 (0) Googledrive chunked upload: 60.5 % uploaded (11534336)
+0020.851 (0) Googledrive chunked upload: 66 % uploaded (12582912)
+0022.014 (0) Googledrive chunked upload: 71.5 % uploaded (13631488)
+0023.119 (0) Googledrive chunked upload: 77 % uploaded (14680064)
+0024.226 (0) Googledrive chunked upload: 82.5 % uploaded (15728640)
+0025.337 (0) Googledrive chunked upload: 88 % uploaded (16777216)
+0026.456 (0) Googledrive chunked upload: 93.5 % uploaded (17825792)
+0027.556 (0) Googledrive chunked upload: 99 % uploaded (18874368)
+0028.882 (0) Googledrive chunked upload: 100 % uploaded (18874368)
+0028.888 (0) OK: Archive backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip uploaded to Google Drive in 21.6 seconds
+0028.891 (0) Recording as successfully uploaded: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip (9344338c5a8c68afb353a473639370a0)
+0028.899 (0) Deleting local file: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-plugins.zip: OK
+0029.349 (0) Google Drive quota usage: used=2041.1 MB, total=15360 MB, available=13318.9 MB
+0029.352 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-themes.zip: Attempting to upload to Google Drive (into folder id: 0B5Nwr5jLy8VuRy1SdnNlRTNkRjg)
+0031.648 (0) Googledrive chunked upload: 100 % uploaded
+0031.653 (0) OK: Archive backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-themes.zip uploaded to Google Drive in 2.3 seconds
+0031.656 (0) Recording as successfully uploaded: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-themes.zip (791b3ca2ea02cb7fdb2099ad8a4df795)
+0031.662 (0) Deleting local file: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-themes.zip: OK
+0032.566 (0) Google Drive quota usage: used=2042.1 MB, total=15360 MB, available=13317.9 MB
+0032.569 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B5Nwr5jLy8VuRy1SdnNlRTNkRjg)
+0035.027 (0) Googledrive chunked upload: 100 % uploaded
+0035.033 (0) OK: Archive backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-uploads.zip uploaded to Google Drive in 2.46 seconds
+0035.036 (0) Recording as successfully uploaded: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-uploads.zip (fb6b2aa3ad18bd9f734190857e8188fd)
+0035.041 (0) Deleting local file: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-uploads.zip: OK
+0035.639 (0) Google Drive quota usage: used=2042.9 MB, total=15360 MB, available=13317.1 MB
+0035.641 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-others.zip: Attempting to upload to Google Drive (into folder id: 0B5Nwr5jLy8VuRy1SdnNlRTNkRjg)
+0036.794 (0) Googledrive chunked upload: 100 % uploaded
+0036.799 (0) OK: Archive backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-others.zip uploaded to Google Drive in 1.16 seconds
+0036.802 (0) Recording as successfully uploaded: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-others.zip (876f1bf2baeae0a0f91f2ff86c4c4e35)
+0036.807 (0) Deleting local file: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-others.zip: OK
+0037.135 (0) Google Drive quota usage: used=2042.9 MB, total=15360 MB, available=13317.1 MB
+0037.137 (0) backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db.gz: Attempting to upload to Google Drive (into folder id: 0B5Nwr5jLy8VuRy1SdnNlRTNkRjg)
+0038.301 (0) Googledrive chunked upload: 100 % uploaded
+0038.306 (0) OK: Archive backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db.gz uploaded to Google Drive in 1.17 seconds
+0038.310 (0) Recording as successfully uploaded: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db.gz (963e83e82f597f75a52e5924f5c67de2)
+0038.315 (0) Deleting local file: backup_2017-12-10-1436_Activist_Group_c9dc0d14c80b-db.gz: OK
+0038.318 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0038.320 (0) Number of backup sets in history: 6; groups (db): 1
+0038.321 (0) Examining (for databases) backup set with group_id=0, nonce=c9dc0d14c80b, datestamp=1512916586 (Dec 10 2017 14:36:26)
+0038.323 (0) This backup set is the backup set just made, so will not be deleted.
+0038.323 (0) Examining (for databases) backup set with group_id=0, nonce=abe6800a08b9, datestamp=1512900696 (Dec 10 2017 10:11:36)
+0038.324 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.325 (0) Examining (for databases) backup set with group_id=0, nonce=64d3ca8a7de9, datestamp=1512838830 (Dec 09 2017 17:00:30)
+0038.325 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.325 (0) Examining (for databases) backup set with group_id=0, nonce=39bab3e36551, datestamp=1512819224 (Dec 09 2017 11:33:44)
+0038.325 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.325 (0) Examining (for databases) backup set with group_id=0, nonce=efbdbd9979e4, datestamp=1512755976 (Dec 08 2017 17:59:36)
+0038.325 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.325 (0) Examining (for databases) backup set with group_id=0, nonce=70c884170e4c, datestamp=1512140643 (Dec 01 2017 15:04:03)
+0038.325 (0) 1512140643: db: this set includes a database (backup_2017-12-01-1504_Activist_Group_70c884170e4c-db.gz); db count is now 5
+0038.325 (0) 1512140643: db: over retain limit (5); will delete this database
+0038.325 (0) Delete file: backup_2017-12-01-1504_Activist_Group_70c884170e4c-db.gz, service=googledrive
+0038.327 (0) PHP event: code E_NOTICE: Undefined property: UpdraftPlus_BackupModule_googledrive::$_storage (line 128, wp-content/plugins/updraftplus/methods/backup-module.php)
+0038.328 (0) Google Drive: requesting access token: client_id=205978054409-brgor40fj06co7tib48l3ir10pv6so2c.apps.googleusercontent.com
+0038.470 (0) Google Drive: successfully obtained access token
+0041.780 (0) backup_2017-12-01-1504_Activist_Group_70c884170e4c-db.gz: Deletion successful
+0041.786 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0041.787 (0) Number of backup sets in history: 6; groups (files): 1
+0041.788 (0) Examining (for files) backup set with nonce=c9dc0d14c80b, datestamp=1512916586 (Dec 10 2017 14:36:26)
+0041.789 (0) This backup set is the backup set just made, so will not be deleted.
+0041.790 (0) This backup set is the backup set just made, so will not be deleted.
+0041.790 (0) This backup set is the backup set just made, so will not be deleted.
+0041.790 (0) This backup set is the backup set just made, so will not be deleted.
+0041.790 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.791 (0) Examining (for files) backup set with nonce=abe6800a08b9, datestamp=1512900696 (Dec 10 2017 10:11:36)
+0041.791 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.791 (0) Examining (for files) backup set with nonce=64d3ca8a7de9, datestamp=1512838830 (Dec 09 2017 17:00:30)
+0041.791 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.791 (0) Examining (for files) backup set with nonce=39bab3e36551, datestamp=1512819224 (Dec 09 2017 11:33:44)
+0041.791 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.791 (0) Examining (for files) backup set with nonce=efbdbd9979e4, datestamp=1512755976 (Dec 08 2017 17:59:36)
+0041.792 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.792 (0) Examining (for files) backup set with nonce=70c884170e4c, datestamp=1512140643 (Dec 01 2017 15:04:03)
+0041.792 (0) plugins: over retain limit (5); will delete this file entity
+0041.792 (0) themes: over retain limit (5); will delete this file entity
+0041.792 (0) uploads: over retain limit (5); will delete this file entity
+0041.792 (0) others: over retain limit (5); will delete this file entity
+0041.792 (0) Delete file: backup_2017-12-01-1504_Activist_Group_70c884170e4c-plugins.zip, service=googledrive
+0041.793 (0) Delete file: backup_2017-12-01-1504_Activist_Group_70c884170e4c-themes.zip, service=googledrive
+0041.794 (0) Delete file: backup_2017-12-01-1504_Activist_Group_70c884170e4c-uploads.zip, service=googledrive
+0041.795 (0) Delete file: backup_2017-12-01-1504_Activist_Group_70c884170e4c-others.zip, service=googledrive
+0041.796 (0) PHP event: code E_NOTICE: Undefined property: UpdraftPlus_BackupModule_googledrive::$_storage (line 128, wp-content/plugins/updraftplus/methods/backup-module.php)
+0041.798 (0) Google Drive: requesting access token: client_id=205978054409-brgor40fj06co7tib48l3ir10pv6so2c.apps.googleusercontent.com
+0041.940 (0) Google Drive: successfully obtained access token
+0044.975 (0) backup_2017-12-01-1504_Activist_Group_70c884170e4c-others.zip: Deletion successful
+0045.776 (0) backup_2017-12-01-1504_Activist_Group_70c884170e4c-uploads.zip: Deletion successful
+0046.698 (0) backup_2017-12-01-1504_Activist_Group_70c884170e4c-themes.zip: Deletion successful
+0047.311 (0) backup_2017-12-01-1504_Activist_Group_70c884170e4c-plugins.zip: Deletion successful
+0047.317 (0) This backup set is now empty; will remove from history
+0047.318 (0) Deleting log file (log.70c884170e4c.txt)
+0047.320 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0047.325 (0) Resume backup (c9dc0d14c80b, 0): finish run
+0047.328 (0) Decremented the semaphore (fd) by 1
+0047.330 (0) Semaphore (fd) unlocked
+0047.331 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0047.336 (0) No email will/can be sent - the user has not configured an email address.
+0047.337 (0) The backup apparently succeeded and is now complete
