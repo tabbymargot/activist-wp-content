@@ -217,6 +217,14 @@ class ICWP_WPSF_Foundation {
 	}
 
 	/**
+	 * @return ICWP_WPSF_WpIncludes
+	 */
+	static public function loadWpIncludes() {
+		self::requireCommonLib( 'icwp-wpincludes.php' );
+		return ICWP_WPSF_WpIncludes::GetInstance();
+	}
+
+	/**
 	 * @return ICWP_WPSF_WpTrack
 	 */
 	static public function loadWpTrack() {
@@ -306,8 +314,8 @@ class ICWP_WPSF_Foundation {
 
 	/**
 	 */
-	static public function loadLib_Carbon() {
-		self::requireCommonLib( 'lib'.DIRECTORY_SEPARATOR.'Carbon'.DIRECTORY_SEPARATOR.'Carbon.php' );
+	static public function loadAutoload() {
+		self::requireCommonLib( 'lib/vendor/autoload.php' );
 	}
 
 	/**
